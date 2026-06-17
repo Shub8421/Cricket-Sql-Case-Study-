@@ -95,8 +95,6 @@ INSERT INTO Matches VALUES
 
 -- ======================================
 -- Insert Performance
-
-
 -- ======================================
 
 -- Match 1: India vs Australia (Winner: India)
