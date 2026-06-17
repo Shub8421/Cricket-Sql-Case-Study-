@@ -51,7 +51,6 @@ INSERT INTO Teams VALUES
 
 -- ======================================
 -- Insert Players
--- (Only a subset per team for simplicity)
 -- ======================================
 
 INSERT INTO Players VALUES
@@ -96,7 +95,6 @@ INSERT INTO Matches VALUES
 
 -- ======================================
 -- Insert Performance
--- Each match: ~6 players per team
 -- ======================================
 
 -- Match 1: India vs Australia (Winner: India)
