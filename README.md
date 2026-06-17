@@ -95,6 +95,8 @@ INSERT INTO Matches VALUES
 
 -- ======================================
 -- Insert Performance
+
+
 -- ======================================
 
 -- Match 1: India vs Australia (Winner: India)
@@ -181,13 +183,16 @@ Runs scored × 1.5 + Wickets taken × 25 + Catches × 10 + Stumpings × 15 + Run
 Only include players who participated in at least 3 matches.
 17.Find the match where the winning team had the narrowest margin of victory based on total runs scored by both teams.
 If multiple matches have the same margin, list all of them.
+
 18.List all players who have outperformed their teammates in terms of total runs scored in more than half the matches they played.
 This requires finding matches where a player scored the most runs among their teammates and calculating the percentage.
 19.Rank players by their average impact per match, considering only those who played at least three matches.
 The impact is calculated as:
 Runs scored × 1.5 + Wickets taken × 25 + Catches × 10 + Stumpings × 15 + Run outs × 10.
 Players with the same average impact should share the same rank.
+
 20.Identify the top 3 matches with the highest cumulative total runs scored by both teams.
 Rank the matches based on total runs using window functions. If multiple matches have the same total runs, they should share the same rank.
+
 21.For each player, calculate their running cumulative impact score across all matches they’ve played, ordered by match date.
 Include only players who have played in at least 3 matches.
