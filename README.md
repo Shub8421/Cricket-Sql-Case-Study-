@@ -44,9 +44,9 @@ CREATE TABLE Teams (
     Captain VARCHAR(100)
 );
 
--- ======================================
+
 -- Insert Teams
--- ======================================
+
 
 INSERT INTO Teams VALUES
 ('India', 'Rahul Dravid', 'Rohit Sharma'),
@@ -55,9 +55,9 @@ INSERT INTO Teams VALUES
 ('Afghanistan', 'Jonathan Trott', 'Hashmatullah Shahidi'),
 ('New Zealand', 'Gary Stead', 'Kane Williamson');
 
--- ======================================
+
 -- Insert Players
--- ======================================
+
 
 INSERT INTO Players VALUES
 (1, 'Virat Kohli', 'India', 'Batsman', 2008),
@@ -88,9 +88,9 @@ INSERT INTO Players VALUES
 (22, 'Devon Conway', 'New Zealand', 'Batsman', 2020),
 (23, 'Tom Latham', 'New Zealand', 'Wicket-Keeper', 2012);
 
--- ======================================
+
 -- Insert Matches
--- ======================================
+
 
 INSERT INTO Matches VALUES
 (1, '2023-03-01', 'Mumbai', 'India', 'Australia', 'India'),
@@ -99,9 +99,9 @@ INSERT INTO Matches VALUES
 (4, '2023-05-15', 'Dubai', 'India', 'Afghanistan', 'India'),
 (5, '2023-06-20', 'Melbourne', 'Australia', 'New Zealand', 'Australia');
 
--- ======================================
+
 -- Insert Performance
--- ======================================
+
 
 -- Match 1: India vs Australia (Winner: India)
 INSERT INTO Performance VALUES
@@ -187,7 +187,6 @@ Runs scored × 1.5 + Wickets taken × 25 + Catches × 10 + Stumpings × 15 + Run
 Only include players who participated in at least 3 matches.
 17.Find the match where the winning team had the narrowest margin of victory based on total runs scored by both teams.
 If multiple matches have the same margin, list all of them.
-
 18.List all players who have outperformed their teammates in terms of total runs scored in more than half the matches they played.
 This requires finding matches where a player scored the most runs among their teammates and calculating the percentage.
 19.Rank players by their average impact per match, considering only those who played at least three matches.
